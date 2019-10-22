@@ -11,3 +11,10 @@ KLT object tracking
 4. Repeat 2 to 3
 
 ![Screenshot](screenshot.png)
+
+Algorithm needs initialization to select the first position of the object.
+
+One problem for this algorithm is that anytime the object is going out of the ellipse, it needs initialization. 
+One trick to solve this problem is to consider a larger box to find the desired corners to follow the object. 
+
+![Screenshot](screenshot2.png)
